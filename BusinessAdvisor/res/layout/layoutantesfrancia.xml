@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:gravity="fill" >
+    
+  
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="125dp"
+        android:onClick="lanzarsugerenciasfrancia"
+        android:contentDescription="@string/recomendaciones"
+        android:src="@drawable/recomendaciones" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="225dp"   
+        android:onClick="lanzarclimafrancia"     
+        android:contentDescription="@string/clima"
+        android:src="@drawable/clima" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="325dp" 
+        android:onClick="lanzaraereopuertofrancia"       
+        android:contentDescription="@string/avion"
+        android:src="@drawable/avion" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="225dp"
+        android:onClick="lanzarlugaresdeinteresfrancia"
+        android:contentDescription="@string/lugaresdeinteres"
+        android:src="@drawable/lugaresdeinteres" />
+
+   
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="125dp"
+        android:contentDescription="@string/documentos"
+        android:onClick="lanzardocumentosfrancia"
+        android:src="@drawable/documentos" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"        
+        android:contentDescription="@string/antesdepartir"
+        android:src="@drawable/antesdepartir" />
+
+    <TextView
+        android:id="@+id/antesdepartirtexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/documentos"
+        android:contentDescription="@string/documentos"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="200dp"
+        android:onClick="lanzardocumentosfrancia"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+          <TextView
+        android:id="@+id/emergenciastexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aereopuerto"
+        android:contentDescription="@string/aereopuerto"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="400dp"
+        android:onClick="lanzaraereopuertofrancia"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+         <ImageView
+             android:id="@+id/imageView8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="200dp"
+             android:contentDescription="@string/puentefrancia"
+             android:src="@drawable/puentefrancia" />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignRight="@+id/culturatexto"
+             android:layout_marginRight="16dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/franciaName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp" />
+
+         <TextView
+             android:id="@+id/negociostexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/culturatexto"
+             android:layout_alignBottom="@+id/culturatexto"
+             android:layout_alignParentLeft="true"
+             android:contentDescription="@string/lugaresdeinteres"
+             android:text="@string/lugaresdeinteres"
+             android:onClick="lanzarlugaresdeinteresfrancia"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/informaciongeneraltexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/antesdepartirtexto"
+             android:layout_alignBottom="@+id/antesdepartirtexto"
+             android:layout_centerHorizontal="true"
+             android:contentDescription="@string/recomendaciones"
+             android:text="@string/sugerencias"
+             android:onClick="lanzarsugerenciasfrancia"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/culturatexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView5"
+             android:layout_toRightOf="@+id/emergenciastexto"
+             android:contentDescription="@string/clima"
+             android:text="@string/clima"
+             android:onClick="lanzarclimafrancia"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+       
+</RelativeLayout>

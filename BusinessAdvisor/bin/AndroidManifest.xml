@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.businessadvisor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="BusinessAdvisorClass" android:name=".BusinessAdvisorClass"></activity>
+        <activity android:name="businessadvisor.brasil.Brasil" android:label="Brasil"></activity>
+        <activity android:name="businessadvisor.francia.Francia" android:label="Francia"></activity>
+        <activity android:name="businessadvisor.francia.FranciaClass" android:label="Francia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.FranciaAntesdePartir"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.FranciaCultura"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.FranciaEmergencias"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.FranciaNegocios"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.FranciaRecomendaciones"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.AereopuertoFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.ClimaFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.DocumentosFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.LugaresdeInteresFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.SugerenciasFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.VestimentaFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.PuntualidadFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.ComunicacionFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.AlimentosFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.AgendaFrancia"></activity>
+        <activity android:name="businessadvisor.francia.ReligionFrancia" android:label="Francia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.LenguaFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.CostumbreFrancia"></activity>
+        <activity android:name="businessadvisor.francia.DiasFestivosFrancia" android:label="Francia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.EmbajadaFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.ConsuladoFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.PoliciaFrancia"></activity>
+        <activity android:name="businessadvisor.francia.HospitalesFrancia" android:label="Francia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.QueHacerFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.QuenoHacerFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.SaludosFrancia"></activity>
+        <activity android:label="Francia" android:name="businessadvisor.francia.VocabularioFrancia"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:gravity="fill" >
+    
+  
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="125dp"
+        android:contentDescription="@string/puntualidad"
+        
+        android:onClick="lanzarpuntualidadfrancia"
+        android:src="@drawable/puntualidad" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="225dp" 
+        android:onClick="lanzaralimentosfrancia"       
+        android:contentDescription="@string/alimentos"
+        android:src="@drawable/alimentos" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="325dp" 
+        android:onClick="lanzaragendafrancia"       
+        android:contentDescription="@string/agenda"
+        android:src="@drawable/agenda" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="325dp"
+        android:onClick="lanzarinformacionfrancia"                
+        android:contentDescription="@string/general"
+        android:src="@drawable/general" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="225dp"
+        android:onClick="lanzarcomunicacionfrancia"
+        android:contentDescription="@string/comunicacion"
+        android:src="@drawable/comunicacion" />
+
+   
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="125dp"
+        android:onClick="lanzarvestimentafrancia"
+        android:contentDescription="@string/vestimenta"
+        android:src="@drawable/vestimenta" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"        
+        android:contentDescription="@string/negocios"
+        android:src="@drawable/negocios" />
+
+    <TextView
+        android:id="@+id/antesdepartirtexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vestimenta"
+        android:contentDescription="@string/vestimenta"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="200dp"
+        android:onClick="lanzarvestimentafrancia"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+       
+        <TextView
+        android:id="@+id/negociostexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comunicacion"
+        android:contentDescription="@string/comunicacion"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:onClick="lanzarcomunicacionfrancia"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+         <TextView
+        android:id="@+id/culturatexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alimentos"
+        android:contentDescription="@string/alimentos"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="300dp"
+        android:onClick="lanzaralimentosfrancia"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+         <ImageView
+             android:id="@+id/imageView8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="200dp"
+             android:contentDescription="@string/palacio"
+             android:src="@drawable/palacio" />
+
+         <TextView
+             android:id="@+id/informaciongeneraltexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/antesdepartirtexto"
+             android:layout_alignBottom="@+id/antesdepartirtexto"
+             android:layout_alignLeft="@+id/imageView2"
+             android:contentDescription="@string/puntualidad"
+             android:text="@string/puntualidad"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:onClick="lanzarpuntualidadfrancia"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignRight="@+id/culturatexto"
+             android:layout_marginRight="16dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/franciaName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp" />
+
+         <TextView
+             android:id="@+id/emergenciastexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/antesdepartirtexto"
+             android:layout_below="@+id/imageView6"
+             android:contentDescription="@string/agenda"
+             android:text="@string/agenda"
+             android:onClick="lanzaragendafrancia"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/recomendacionestexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/emergenciastexto"
+             android:layout_alignBottom="@+id/emergenciastexto"
+             android:layout_alignLeft="@+id/culturatexto"
+             android:contentDescription="@string/general"
+             android:text="@string/general"
+             android:onClick="lanzarinformacionfrancia"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+       
+</RelativeLayout>

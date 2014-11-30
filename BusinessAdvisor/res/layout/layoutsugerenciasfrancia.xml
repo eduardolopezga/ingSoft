@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:gravity="fill" >
+    
+  
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="125dp"
+        android:contentDescription="@string/quenohacer"
+        android:onClick="lanzarquenohacerfrancia"
+        android:src="@drawable/quenohacer" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="225dp" 
+        android:onClick="lanzarvocabulariofrancia"       
+        android:contentDescription="@string/vocabulario"
+        android:src="@drawable/vocabulario" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="225dp"
+        android:onClick="lanzarsaludosfrancia"
+        android:contentDescription="@string/saludos"
+        android:src="@drawable/saludos" />
+
+   
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="125dp"
+        android:onClick="lanzarquehacerfrancia"
+        android:contentDescription="@string/quehacer"
+        android:src="@drawable/quehacer" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"        
+        android:contentDescription="@string/recomendaciones"
+        android:src="@drawable/recomendaciones" />
+
+         <ImageView
+             android:id="@+id/imageView8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="200dp"
+             android:contentDescription="@string/piramide"
+             android:src="@drawable/piramide" />
+
+         <TextView
+             android:id="@+id/informaciongeneraltexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/antesdepartirtexto"
+             android:layout_alignBottom="@+id/antesdepartirtexto"
+             android:layout_alignLeft="@+id/imageView2"
+             android:contentDescription="@string/quenohacer"
+             android:text="@string/quenohacer"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:onClick="lanzarquenohacerfrancia"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignRight="@+id/culturatexto"
+             android:layout_marginRight="16dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/franciaName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp" />
+
+         <TextView
+             android:id="@+id/antesdepartirtexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/imageView3"
+             android:layout_below="@+id/imageView3"
+             android:contentDescription="@string/quehacer"
+             android:text="@string/quehacer"
+             android:onClick="lanzarquehacerfrancia"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/negociostexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/culturatexto"
+             android:layout_alignBottom="@+id/culturatexto"
+             android:layout_alignRight="@+id/imageView4"
+             android:contentDescription="@string/saludos"
+             android:text="@string/saludos"
+             android:onClick="lanzarsaludosfrancia"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/culturatexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/imageView5"
+             android:layout_below="@+id/imageView5"
+             android:contentDescription="@string/vocabulario"
+             android:text="@string/vocabulario"
+             android:onClick="lanzarvocabulariofrancia"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+       
+</RelativeLayout>

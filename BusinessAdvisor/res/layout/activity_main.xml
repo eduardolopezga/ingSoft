@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="@drawable/gradient">
+
+    
+
+    <ImageView
+        android:id="@+id/banderaalemania"
+        android:layout_width="100dp"
+        android:layout_height="50dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/alemaniaName"
+        android:src="@drawable/alemaniabandera"
+        android:onClick="lanzarAlemania" />
+    
+    <TextView
+             android:id="@+id/alemaniatexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="120dp"
+        	 android:layout_marginTop="25dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/alemaniaName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp"
+             android:onClick="lanzarAlemania" />
+    
+    <ImageView
+        android:id="@+id/banderabrasil"
+        android:layout_width="100dp"
+        android:layout_height="50dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="95dp"
+        android:contentDescription="@string/brasilName"
+        android:src="@drawable/brasilbandera"
+        android:onClick="lanzarBrasil" />
+    
+    <TextView
+             android:id="@+id/brasiltexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="120dp"
+        	 android:layout_marginTop="95dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/brasilName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp" 
+             android:onClick="lanzarBrasil"/>
+    
+    <ImageView
+        android:id="@+id/espanabandera"
+        android:layout_width="100dp"
+        android:layout_height="50dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="165dp"
+        android:contentDescription="@string/espanaName"
+        android:src="@drawable/espanabandera" />
+    
+    <TextView
+             android:id="@+id/espanatexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="120dp"
+        	 android:layout_marginTop="165dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/espanaName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp" />
+    
+     <ImageView
+        android:id="@+id/estadosunidosbandera"
+        android:layout_width="100dp"
+        android:layout_height="50dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="235dp"
+        android:contentDescription="@string/estados_UnidosName"
+        android:src="@drawable/estadosbandera" />
+     
+     <TextView
+             android:id="@+id/estadosunidostexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="120dp"
+        	 android:layout_marginTop="230dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/estados_UnidosName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp" />
+     
+      <ImageView
+        android:id="@+id/franciabandera"
+        android:layout_width="100dp"
+        android:layout_height="50dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="305dp"
+        android:contentDescription="@string/franciaName"
+        android:src="@drawable/franciabandera"
+        android:onClick="lanzarFrancia" />
+      
+      
+      <TextView
+             android:id="@+id/franciatexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="120dp"
+        	 android:layout_marginTop="305dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/franciaName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp"
+             android:onClick="lanzarFrancia" />
+       <ImageView
+        android:id="@+id/mexicobandera"
+        android:layout_width="100dp"
+        android:layout_height="50dp"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="375dp"
+        android:contentDescription="@string/mexicoName"
+        android:src="@drawable/mexicobandera" />
+       
+       <TextView
+             android:id="@+id/mexicotexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="120dp"
+        	 android:layout_marginTop="375dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/mexicoName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp" />
+
+       
+
+</RelativeLayout>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BusinessAdvisor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="alemaniaName">Alemania</string>
+    <string name="brasilName">Brasil</string>
+    <string name="estados_UnidosName">Estados Unidos</string>
+    <string name="franciaName">Francia</string>
+    <string name="mexicoName">Mexico</string>
+    <string name="espanaName">España</string>
+    <string name="seleccione_un_pais">Selaccione Un Pais</string>
+    <string name="estadosName">Estados Unidos</string>
+    <string name="spainName">España</string>
+    <string name="antesdepartir">Antes De Partir</string>
+    <string name="informaciongeneral">Informacion General</string>
+    <string name="negocios">Negocios</string>
+    <string name="cultura">Cultura</string>
+    <string name="emergencias">Emergencias</string>
+    <string name="recomendaciones">Recomendaciones</string>
+    <color name="fondoaplicacion">#ff00c0e8</color>
+    <string name="opciones">Seleccione Una Categoria</string>
+
+</resources>

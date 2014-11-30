@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:gravity="fill" >
+    
+  
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="125dp"
+        android:contentDescription="@string/lengua"
+        android:onClick="lanzarlenguafrancia"
+        android:src="@drawable/lengua" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="225dp"  
+        android:onClick="lanzardiasfestivosfrancia"      
+        android:contentDescription="@string/diasfestivos"
+        android:src="@drawable/diasfestivos" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp" 
+        android:onClick="lanzarcostumbresfrancia"       
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="225dp"
+        android:contentDescription="@string/costumbres"
+        android:src="@drawable/costumbres" />
+
+   
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="125dp"
+        android:contentDescription="@string/religion"
+        android:onClick="lanzarreligionfrancia"
+        android:src="@drawable/religion" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"        
+        android:contentDescription="@string/cultura"
+        android:src="@drawable/cultura" />
+       
+        <TextView
+        android:id="@+id/negociostexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/costumbres"
+        android:contentDescription="@string/costumbres"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:onClick="lanzarcostumbresfrancia"
+        android:layout_marginTop="300dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+         <ImageView
+             android:id="@+id/imageView8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="200dp"
+             android:contentDescription="@string/catedralfrancia"
+             android:src="@drawable/catedralfrancia" />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignRight="@+id/culturatexto"
+             android:layout_marginRight="16dp"
+             android:shadowDx="6"
+             android:shadowDy="4"
+             android:shadowRadius="2.8"
+             android:text="@string/franciaName"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF"
+             android:textSize="30sp" />
+
+         <TextView
+             android:id="@+id/culturatexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/negociostexto"
+             android:layout_alignBottom="@+id/negociostexto"
+             android:layout_alignLeft="@+id/imageView5"
+             android:contentDescription="@string/diasfestivos"
+             android:text="@string/diasfestivos"
+             android:onClick="lanzardiasfestivos"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/antesdepartirtexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView3"
+             android:layout_toLeftOf="@+id/textView1"
+             android:contentDescription="@string/religion"
+             android:text="@string/religion"
+             android:onClick="lanzarreligionfrancia"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/informaciongeneraltexto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView2"
+             android:layout_toRightOf="@+id/imageView1"
+             android:contentDescription="@string/lengua"
+             android:onClick="lanzarlenguafrancia"
+             android:text="@string/lengua"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+       
+</RelativeLayout>
