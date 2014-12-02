@@ -4,8 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical" 
     android:background="@drawable/gradient">
+
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/TextView01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
@@ -16,6 +17,19 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FFFFFF"
         android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:shadowDx="6"
+        android:shadowDy="4"
+        android:shadowRadius="2.8"
+        android:text="La cooperación bilateral con Francia abarca hoy en día importantes realizaciones en los capítulos culturales, educativo y científico técnico. Varias instituciones francesas de gran prestigio están presentes en nuestro país, como es el caso del Instituto Francés de América Latina (IFAL), la Alianza Francesa, la Casa de Francia, el Liceo Franco Mexicano, por mencionar algunos de los principales servicios coordinados por la Embajada de Francia. La Embajada Embajador Agustín García-López http://embamex.sre.gob.mx/francia/ INFORMACIÓN SOBRE LA EMBAJADA  Dirección: 9, rue de Longchamp 75116 París Horario: Lunes a Viernes 9:00 am - 18:00 Hrs. Número telefónico para información: 01 53 70 27 70  Fax: 01 47 55 65 29  Correo electrónico embfrancia@sre.gob.mx"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
     
 
 </LinearLayout>
