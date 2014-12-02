@@ -4,8 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical" 
     android:background="@drawable/gradient">
+
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/TextView01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
@@ -16,6 +17,19 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FFFFFF"
         android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:shadowDx="6"
+        android:shadowDy="4"
+        android:shadowRadius="2.8"
+        android:text="Si bien el turista mexicano no requiere visa para ingresar a Francia, la autoridad migratoria francesa puede exigirle a su llegada los siguientes documentos: a) Comprobantes de reservación de hotel u hospedaje b) Recursos financieros suficientes para su estancia (tarjetas de crédito, cheques de viajero, etc) por un mínimo de 50 euros diarios. c) Su boleto de avión de regreso a México o a su país de residencia. d) Seguro médico y de repatriación Las personas que deseen visitar a sus familiares residentes en Francia y que no cuenten con comprobantes de reservación de hotel u hospedaje, o con prueba de recursos financieros suficientes para su estancia en el país, deben presentar a su llegada a Francia la Constancia de Alojamiento (attestation d´hebergement) expedida por la autoridad francesa y tramitada personalmente por el familiar residente en Francia en la Alcaldía de su domicilio (Mairie). Dicho documento debe ser enviado al visitante antes de su salida de México para que éste lo pueda mostrar a su llegada a Francia. www.service-public.fr/"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
     
 
 </LinearLayout>

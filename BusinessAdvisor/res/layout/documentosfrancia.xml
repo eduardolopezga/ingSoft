@@ -5,8 +5,9 @@
     android:orientation="vertical" 
 
     android:background="@drawable/gradient">
+
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/TextView02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
@@ -17,5 +18,18 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FFFFFF"
         android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:shadowDx="6"
+        android:shadowDy="4"
+        android:shadowRadius="2.8"
+        android:text="@string/los_ciudadanos_mexicanos_no_requieren_de_visa_para_ingresar_como_turistas_a_francia_con_un_pasaporte_de_una_vigencia_m_nima_de_seis_meses_pueden_permanecer_en_francia_durante_90_d_as_por_un_per_odo_de_seis_meses_al_t_rmino_de_esos_90_d_as_el_visitante_debe_abandonar_el_territorio_de_la_uni_n_europea_por_otros_noventa_d_as_antes_de_volver_a_entrar_a_territorio_europeo_es_recomendable_no_exceder_el_plazo_citado_ya_que_la_autoridad_migratoria_puede_expulsarle_y_sancionarle_con_prohibici_n_de_entrada_a_la_uni_n_europea_al_t_rmino_del_lapso_de_90_d_as_el_visitante_debe_salir_necesariamente_de_la_uni_n_europea_en_estos_casos_no_no_basta_salir_a_un_tercer_pa_s_por_unos_d_as_y_volver_a_entrar_a_territorio_europeo_ya_que_de_hacerlo_las_autoridades_migratorias_podr_an_negarle_el_ingreso_a_francia_a_n_en_el_caso_de_que_su_viaje_de_regreso_a_m_xico_sea_a_partir_de_una_ciudad_francesa_"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
 
 </LinearLayout>
